@@ -13,7 +13,7 @@ let cryptoData = [];
 //     .catch(error => console.log(error));
 // }
 
-//Fetch data using async/await
+// Fetch data using async/await
 async function fetchDataWithAsyncAwait() {
   try {
     const response = await fetch(API_URL);
@@ -62,5 +62,5 @@ function sortByPercentage(){
   renderTable(sortedData);
 }
 
- //fetchDataWithThen();
+// fetchDataWithThen();
 fetchDataWithAsyncAwait();
